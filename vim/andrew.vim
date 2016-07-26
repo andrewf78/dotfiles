@@ -16,7 +16,6 @@
 "hi CTagsGlobalConstant -- no settings -- 
 "hi PMenuSbar -- no settings -- 
 
-"hi Normal ctermfg=251 ctermbg=NONE cterm=NONE 
 hi Normal ctermfg=251 ctermbg=251 cterm=NONE 
 
 "hi CTagsImport -- no settings -- 
@@ -46,25 +45,25 @@ hi Normal ctermfg=251 ctermbg=251 cterm=NONE
 hi IncSearch ctermfg=11 ctermbg=10 cterm=NONE 
 hi WildMenu ctermfg=NONE ctermbg=30 cterm=NONE 
 hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE 
-hi SpecialComment ctermfg=248 ctermbg=NONE cterm=NONE 
-hi Typedef ctermfg=21 ctermbg=NONE cterm=NONE 
+hi SpecialComment ctermfg=252 ctermbg=NONE cterm=NONE 
+hi Typedef ctermfg=39 ctermbg=NONE cterm=NONE 
 hi Title ctermfg=10 ctermbg=NONE cterm=NONE 
 hi Folded ctermfg=7 ctermbg=239 cterm=NONE 
 hi PreCondit ctermfg=14 ctermbg=NONE cterm=NONE 
-hi Include ctermfg=201 ctermbg=NONE cterm=NONE 
+hi Include ctermfg=120 ctermbg=NONE cterm=NONE 
 hi StatusLineNC ctermfg=248 ctermbg=NONE cterm=NONE 
 hi NonText ctermfg=NONE ctermbg=NONE cterm=NONE 
-hi DiffText ctermfg=21 ctermbg=248 cterm=NONE 
+hi DiffText ctermfg=39 ctermbg=248 cterm=NONE 
 hi ErrorMsg ctermfg=88 ctermbg=248 cterm=NONE 
 hi Ignore ctermfg=7 ctermbg=248 cterm=NONE 
 hi Debug ctermfg=88 ctermbg=NONE cterm=NONE 
-hi Identifier ctermfg=124 ctermbg=NONE cterm=NONE 
+hi Identifier ctermfg=142 ctermbg=NONE cterm=NONE 
 hi SpecialChar ctermfg=196 ctermbg=NONE cterm=NONE 
 hi Conditional ctermfg=30 ctermbg=NONE cterm=NONE 
 hi StorageClass ctermfg=14 ctermbg=NONE cterm=NONE 
 hi Todo ctermfg=11 ctermbg=NONE cterm=NONE 
-hi Special ctermfg=21 ctermbg=NONE cterm=NONE 
-hi LineNr ctermfg=21 ctermbg=NONE cterm=NONE 
+hi Special ctermfg=39 ctermbg=NONE cterm=NONE 
+hi LineNr ctermfg=39 ctermbg=NONE cterm=NONE 
 hi StatusLine ctermfg=7 ctermbg=NONE cterm=NONE 
 hi Label ctermfg=248 ctermbg=NONE cterm=NONE 
 hi PMenuSel ctermfg=10 ctermbg=NONE cterm=NONE 
@@ -78,13 +77,13 @@ hi Float ctermfg=196 ctermbg=NONE cterm=NONE
 hi Number ctermfg=33 ctermbg=NONE cterm=NONE 
 hi Boolean ctermfg=196 ctermbg=NONE cterm=NONE 
 hi Operator ctermfg=11 ctermbg=NONE cterm=NONE 
-hi TabLineFill ctermfg=7 ctermbg=21 cterm=NONE 
+hi TabLineFill ctermfg=7 ctermbg=39 cterm=NONE 
 hi Question ctermfg=10 ctermbg=NONE cterm=NONE 
 hi WarningMsg ctermfg=11 ctermbg=NONE cterm=NONE 
 hi DiffDelete ctermfg=NONE ctermbg=248 cterm=NONE 
 hi ModeMsg ctermfg=196 ctermbg=NONE cterm=NONE 
-hi Define ctermfg=21 ctermbg=NONE cterm=NONE 
-hi Function ctermfg=21 ctermbg=NONE cterm=NONE 
+hi Define ctermfg=39 ctermbg=NONE cterm=NONE 
+hi Function ctermfg=39 ctermbg=NONE cterm=NONE 
 hi FoldColumn ctermfg=7 ctermbg=NONE cterm=NONE 
 hi PreProc ctermfg=246 ctermbg=NONE cterm=NONE 
 hi Visual ctermfg=228 ctermbg=64 cterm=NONE 
@@ -96,21 +95,21 @@ hi Keyword ctermfg=30 ctermbg=NONE cterm=NONE
 hi Type ctermfg=10 ctermbg=NONE cterm=NONE 
 hi DiffChange ctermfg=11 ctermbg=248 cterm=NONE 
 hi Cursor ctermfg=60 ctermbg=228 cterm=NONE 
-hi SpellLocal ctermfg=124 ctermbg=NONE cterm=NONE 
+hi SpellLocal ctermfg=146 ctermbg=NONE cterm=NONE 
 hi Error ctermfg=88 ctermbg=248 cterm=NONE 
-hi PMenu ctermfg=21 ctermbg=NONE cterm=NONE 
+hi PMenu ctermfg=39 ctermbg=NONE cterm=NONE 
 hi SpecialKey ctermfg=30 ctermbg=NONE cterm=NONE 
 hi Constant ctermfg=196 ctermbg=NONE cterm=NONE 
 hi Tag ctermfg=90 ctermbg=NONE cterm=NONE 
 hi String ctermfg=196 ctermbg=NONE cterm=NONE 
 hi PMenuThumb ctermfg=30 ctermbg=NONE cterm=NONE 
-hi MatchParen ctermfg=124 ctermbg=NONE cterm=NONE 
+hi MatchParen ctermfg=83 ctermbg=251 cterm=NONE 
 hi Repeat ctermfg=14 ctermbg=NONE cterm=NONE 
 hi SpellBad ctermfg=88 ctermbg=NONE cterm=NONE 
 hi Directory ctermfg=30 ctermbg=NONE cterm=NONE 
 hi Structure ctermfg=10 ctermbg=NONE cterm=NONE 
 hi Macro ctermfg=90 ctermbg=NONE cterm=NONE 
-hi Underlined ctermfg=21 ctermbg=NONE cterm=NONE 
+hi Underlined ctermfg=39 ctermbg=NONE cterm=NONE 
 hi DiffAdd ctermfg=10 ctermbg=248 cterm=NONE 
 hi TabLine ctermfg=196 ctermbg=NONE cterm=NONE 
 hi mbenormal ctermfg=187 ctermbg=237 cterm=NONE 
@@ -166,11 +165,11 @@ hi htmlboldunderline ctermfg=15 ctermbg=NONE cterm=NONE
 hi htmlunderline ctermfg=90 ctermbg=NONE cterm=NONE 
 hi cterm ctermfg=230 ctermbg=NONE cterm=NONE 
 hi htmllink ctermfg=67 ctermbg=NONE cterm=NONE 
-hi pythonstatement ctermfg=31 ctermbg=NONE cterm=NONE 
-hi pythonexception ctermfg=196 ctermbg=NONE cterm=NONE 
+hi pythonstatement ctermfg=111 ctermbg=NONE cterm=NONE 
+hi pythonexception ctermfg=202 ctermbg=NONE cterm=NONE 
 hi pythonoperator ctermfg=103 ctermbg=NONE cterm=NONE 
 hi pythonescape ctermfg=67 ctermbg=NONE cterm=NONE 
-hi pythoncomment ctermfg=242 ctermbg=NONE cterm=NONE 
+hi pythoncomment ctermfg=248 ctermbg=NONE cterm=NONE 
 hi pythonprecondit ctermfg=94 ctermbg=NONE cterm=NONE 
 hi pythonrawstring ctermfg=68 ctermbg=NONE cterm=NONE 
 hi pythonconditional ctermfg=NONE ctermbg=NONE cterm=NONE 
@@ -178,7 +177,7 @@ hi pythonrepeat ctermfg=NONE ctermbg=NONE cterm=NONE
 hi constants ctermfg=179 ctermbg=NONE cterm=NONE 
 hi defined ctermfg=195 ctermbg=NONE cterm=NONE 
 hi special ctermfg=179 ctermbg=NONE cterm=NONE 
-hi preproc ctermfg=21 ctermbg=NONE cterm=NONE 
+hi preproc ctermfg=39 ctermbg=NONE cterm=NONE 
 hi type ctermfg=110 ctermbg=NONE cterm=NONE 
 hi statement ctermfg=15 ctermbg=NONE cterm=NONE 
 hi underlined ctermfg=139 ctermbg=NONE cterm=NONE 
@@ -195,7 +194,7 @@ hi sql_statement ctermfg=92 ctermbg=NONE cterm=NONE
 hi cics_statement ctermfg=64 ctermbg=NONE cterm=NONE 
 hi namespace ctermfg=22 ctermbg=NONE cterm=NONE 
 hi builtin ctermfg=33 ctermbg=NONE cterm=NONE 
-hi tablinefillsel ctermfg=21 ctermbg=NONE cterm=NONE 
+hi tablinefillsel ctermfg=39 ctermbg=NONE cterm=NONE 
 hi taglistcomment ctermfg=NONE ctermbg=28 cterm=NONE 
 hi taglisttitle ctermfg=199 ctermbg=NONE cterm=NONE 
 hi user4 ctermfg=79 ctermbg=66 cterm=NONE 
@@ -230,9 +229,9 @@ hi rubypredefinedconstant ctermfg=241 ctermbg=NONE cterm=NONE
 hi pmenum ctermfg=240 ctermbg=234 cterm=NONE 
 hi gutter ctermfg=NONE ctermbg=7 cterm=NONE 
 hi underline ctermfg=70 ctermbg=NONE cterm=NONE 
-hi pythonimport ctermfg=28 ctermbg=NONE cterm=NONE 
+hi pythonimport ctermfg=47 ctermbg=NONE cterm=NONE 
 hi pythonbuiltinfunction ctermfg=28 ctermbg=NONE cterm=NONE 
-hi pythonexclass ctermfg=28 ctermbg=NONE cterm=NONE 
+hi pythonexclass ctermfg=39 ctermbg=NONE cterm=NONE 
 hi xmltag ctermfg=214 ctermbg=NONE cterm=NONE 
 hi xmlattrib ctermfg=2 ctermbg=NONE cterm=NONE 
 hi xmltagname ctermfg=214 ctermbg=NONE cterm=NONE 
@@ -302,13 +301,13 @@ hi menu ctermfg=NONE ctermbg=7 cterm=NONE
 hi scrollbar ctermfg=137 ctermbg=180 cterm=NONE 
 hi keyword ctermfg=220 ctermbg=NONE cterm=NONE 
 hi vimmodeline ctermfg=77 ctermbg=NONE cterm=NONE 
-hi match ctermfg=21 ctermbg=11 cterm=NONE 
+hi match ctermfg=39 ctermbg=11 cterm=NONE 
 hi regexp ctermfg=74 ctermbg=30 cterm=NONE 
 hi rubymethod ctermfg=227 ctermbg=11 cterm=NONE 
 hi rubynumber ctermfg=191 ctermbg=11 cterm=NONE 
 hi htmlhead ctermfg=NONE ctermbg=15 cterm=NONE 
 hi javascript ctermfg=15 ctermbg=NONE cterm=NONE 
-hi literal ctermfg=21 ctermbg=NONE cterm=NONE 
+hi literal ctermfg=39 ctermbg=NONE cterm=NONE 
 hi rubyfloat ctermfg=88 ctermbg=NONE cterm=NONE 
 hi rubyinteger ctermfg=88 ctermbg=NONE cterm=NONE 
 hi rubysharpbang ctermfg=10 ctermbg=NONE cterm=NONE 
@@ -366,24 +365,24 @@ hi javabraces ctermfg=60 ctermbg=NONE cterm=NONE
 hi javaparen ctermfg=68 ctermbg=NONE cterm=NONE 
 hi javaexternal ctermfg=241 ctermbg=NONE cterm=NONE 
 hi javalangobject ctermfg=67 ctermbg=NONE cterm=NONE 
-hi jinjafilter ctermfg=198 ctermbg=52 cterm=NONE 
+hi jinjafilter ctermfg=178 ctermbg=52 cterm=NONE 
 hi pythondoctest2 ctermfg=72 ctermbg=NONE cterm=NONE 
 hi jinjaraw ctermfg=248 ctermbg=52 cterm=NONE 
 hi jinjaoperator ctermfg=15 ctermbg=52 cterm=NONE 
 hi jinjavarblock ctermfg=196 ctermbg=52 cterm=NONE 
 hi jinjaattribute ctermfg=172 ctermbg=52 cterm=NONE 
-hi pythondoctest ctermfg=23 ctermbg=NONE cterm=NONE 
+hi pythondoctest ctermfg=246 ctermbg=NONE cterm=NONE 
 hi jinjastring ctermfg=32 ctermbg=52 cterm=NONE 
-hi pythonfunction ctermfg=196 ctermbg=NONE cterm=NONE 
+hi pythonfunction ctermfg=43 ctermbg=NONE cterm=NONE 
 hi pythonspaceerror ctermfg=NONE ctermbg=52 cterm=NONE 
 hi jinjacomment ctermfg=28 ctermbg=22 cterm=NONE 
 hi jinjanumber ctermfg=1 ctermbg=52 cterm=NONE 
-hi pythoncoding ctermfg=198 ctermbg=NONE cterm=NONE 
+hi pythoncoding ctermfg=178 ctermbg=NONE cterm=NONE 
 hi jinjatagblock ctermfg=196 ctermbg=52 cterm=NONE 
 hi jinjastatement ctermfg=202 ctermbg=52 cterm=NONE 
 hi pythonbuiltinfunc ctermfg=25 ctermbg=NONE cterm=NONE 
-hi pythonrun ctermfg=198 ctermbg=NONE cterm=NONE 
-hi pythonclass ctermfg=198 ctermbg=NONE cterm=NONE 
+hi pythonrun ctermfg=178 ctermbg=NONE cterm=NONE 
+hi pythonclass ctermfg=178 ctermbg=NONE cterm=NONE 
 hi pythonbuiltinobj ctermfg=25 ctermbg=NONE cterm=NONE 
 hi jinjaspecial ctermfg=33 ctermbg=52 cterm=NONE 
 hi htmlendtag ctermfg=45 ctermbg=NONE cterm=NONE 
@@ -433,7 +432,7 @@ hi doxygenstartl ctermfg=10 ctermbg=NONE cterm=NONE
 hi diffnewfile ctermfg=40 ctermbg=NONE cterm=NONE 
 hi doxygencommentl ctermfg=34 ctermbg=NONE cterm=NONE 
 hi vimcommenttitle ctermfg=10 ctermbg=NONE cterm=NONE 
-hi doxygenparamname ctermfg=21 ctermbg=NONE cterm=NONE 
+hi doxygenparamname ctermfg=39 ctermbg=NONE cterm=NONE 
 hi diffoldfile ctermfg=40 ctermbg=NONE cterm=NONE 
 hi doxygenbriefl ctermfg=34 ctermbg=NONE cterm=NONE 
 hi helphypertextjump ctermfg=214 ctermbg=NONE cterm=NONE 
@@ -443,7 +442,7 @@ hi doxygenparamdirection ctermfg=184 ctermbg=NONE cterm=NONE
 hi perlvarplain ctermfg=116 ctermbg=236 cterm=NONE 
 hi perlstatementstorage ctermfg=15 ctermbg=NONE cterm=NONE 
 hi perlvarplain2 ctermfg=115 ctermbg=236 cterm=NONE 
-hi doxygenargumentword ctermfg=21 ctermbg=NONE cterm=NONE 
+hi doxygenargumentword ctermfg=39 ctermbg=NONE cterm=NONE 
 hi tmesupport ctermfg=101 ctermbg=NONE cterm=NONE 
 "hi cterm=.((s:fontface==plain) ? none : bold) ctermfg=230 ctermbg=230 cterm=NONE 
 hi incsearch ctermfg=15 ctermbg=26 cterm=NONE 
@@ -460,7 +459,7 @@ hi vimerror ctermfg=214 ctermbg=NONE cterm=NONE
 hi cincluded ctermfg=149 ctermbg=NONE cterm=NONE 
 hi texsection ctermfg=118 ctermbg=NONE cterm=NONE 
 hi texmatcher ctermfg=149 ctermbg=NONE cterm=NONE 
-hi cdefine ctermfg=21 ctermbg=NONE cterm=NONE 
+hi cdefine ctermfg=39 ctermbg=NONE cterm=NONE 
 hi mysemis ctermfg=118 ctermbg=NONE cterm=NONE 
 hi cinclude ctermfg=15 ctermbg=NONE cterm=NONE 
 hi mydots ctermfg=33 ctermbg=NONE cterm=NONE 
@@ -495,7 +494,7 @@ hi io ctermfg=196 ctermbg=NONE cterm=NONE
 hi communicator ctermfg=NONE ctermbg=11 cterm=NONE 
 hi tooltip ctermfg=NONE ctermbg=252 cterm=NONE 
 hi _coperators ctermfg=15 ctermbg=NONE cterm=NONE 
-hi attribute ctermfg=162 ctermbg=NONE cterm=NONE 
+hi attribute ctermfg=119 ctermbg=NONE cterm=NONE 
 hi statementu ctermfg=62 ctermbg=NONE cterm=NONE 
 hi winend ctermfg=77 ctermbg=NONE cterm=NONE 
 hi tclflag ctermfg=174 ctermbg=NONE cterm=NONE 
@@ -504,7 +503,7 @@ hi tagname ctermfg=248 ctermbg=52 cterm=NONE
 hi foldecolumn ctermfg=239 ctermbg=234 cterm=NONE 
 hi cppstltype ctermfg=110 ctermbg=NONE cterm=NONE 
 hi number ctermfg=227 ctermbg=NONE cterm=NONE 
-hi method ctermfg=21 ctermbg=NONE cterm=NONE 
+hi method ctermfg=39 ctermbg=NONE cterm=NONE 
 hi vcursor ctermfg=15 ctermbg=NONE cterm=NONE 
 hi ncursor ctermfg=15 ctermbg=NONE cterm=NONE 
 hi otltab1 ctermfg=69 ctermbg=NONE cterm=NONE 
@@ -533,7 +532,7 @@ hi htmlh2 ctermfg=253 ctermbg=52 cterm=NONE
 hi htmlh5 ctermfg=247 ctermbg=52 cterm=NONE 
 hi htmlh4 ctermfg=249 ctermbg=52 cterm=NONE 
 hi htmlh6 ctermfg=245 ctermbg=52 cterm=NONE 
-hi specialkey ctermfg=21 ctermbg=NONE cterm=NONE 
+hi specialkey ctermfg=39 ctermbg=NONE cterm=NONE 
 hi more ctermfg=22 ctermbg=NONE cterm=NONE 
 hi texstatement ctermfg=3 ctermbg=NONE cterm=NONE 
 hi cspecial ctermfg=201 ctermbg=NONE cterm=NONE 
@@ -557,7 +556,7 @@ hi title ctermfg=NONE ctermbg=NONE cterm=NONE
 hi lisplist ctermfg=240 ctermbg=NONE cterm=NONE 
 hi javascriptconditional ctermfg=196 ctermbg=NONE cterm=NONE 
 hi xmlattribpunct ctermfg=187 ctermbg=NONE cterm=NONE 
-hi javascriptfunction ctermfg=198 ctermbg=NONE cterm=NONE 
+hi javascriptfunction ctermfg=178 ctermbg=NONE cterm=NONE 
 hi javascriptregexpstring ctermfg=130 ctermbg=NONE cterm=NONE 
 hi rubystring ctermfg=32 ctermbg=NONE cterm=NONE 
 hi rubyindentifier ctermfg=33 ctermbg=NONE cterm=NONE 
@@ -584,4 +583,4 @@ hi xmlcdata ctermfg=1 ctermbg=NONE cterm=NONE
 hi djangotagblock ctermfg=196 ctermbg=52 cterm=NONE 
 hi xmlcdatacdata ctermfg=125 ctermbg=52 cterm=NONE 
 hi xmlcdatastart ctermfg=1 ctermbg=NONE cterm=NONE 
-hi djangofilter ctermfg=198 ctermbg=52 cterm=NONE 
+hi djangofilter ctermfg=178 ctermbg=52 cterm=NONE 
