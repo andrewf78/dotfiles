@@ -14,7 +14,7 @@ if [ -f ~/.git-prompt.sh ]; then
 fi
 
 # PS1 Setup: <user>@<host>:<cwd>
-export PS1_GIT_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="\[\033[32m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[36m\]\W\[\033[m\]\033[92m\]\$(__git_ps1)\033[0m\]\$ "
 
 # Setup terminal colors.
