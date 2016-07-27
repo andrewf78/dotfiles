@@ -63,7 +63,7 @@ cp andrew.vim ~/.vim/colors/.
 cp .vimrc ~/.
 
 # Setup .vimrc symlink for neovim.
-if [ ! -f ~/.config/nvim ]
+if [ ! -d ~/.config/nvim ]
 then
     ln -s ~/.vim ~/.config/nvim
 fi
