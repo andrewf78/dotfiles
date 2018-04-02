@@ -6,6 +6,8 @@ colorscheme andrew
 set t_Co=256
 set nu
 set nowrap
+set autoindent
+set expandtab
 
 " Status line shows [filename:line:column].
 set statusline+=[%t:%l:%c]
@@ -20,7 +22,10 @@ au BufRead,BufNewFile *.go setfiletype cpp
 "------------------------------------------------------------------------------
 " Infect all the things! (Pathogen pkg managment initialization).
 "------------------------------------------------------------------------------
+filetype off
 execute pathogen#infect()
+execute pathogen#helptags()
+filetype indent plugin on
 
 "------------------------------------------------------------------------------
 " NERD Tree setup.
