@@ -1,0 +1,4 @@
+export WKSPC="$HOME/workspace/"
+export VENV_ROOT="$WKSPC/virtualenvs"
+export GOPATH="$WKSPC/go"
+export GOBIN="$WKSPC/go/bin"
