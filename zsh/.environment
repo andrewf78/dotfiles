@@ -1,3 +1,12 @@
+# Setup default text editors
+export GIT_EDITOR="nvim"
+export EDITOR="$GIT_EDITOR"
+export VISUAL="$EDITOR"
+
+# Update the PATH to default to coreutils
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+# Other setup stuff
 export WKSPC="$HOME/workspace/"
 export VENV_ROOT="$WKSPC/virtualenvs"
 export GOPATH="$WKSPC/go"
