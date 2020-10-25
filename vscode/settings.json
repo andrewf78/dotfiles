@@ -1,0 +1,25 @@
+{
+    //"java.home": "/Users/Andrew.Fruge/.jabba/jdk/adopt@1.14.0-1/Contents/Home",
+    "emeraldwalk.runonsave": {
+
+        "commands": [
+            {
+              "match": "\\.java$",
+              "cmd": "java -jar ${HOME}/static/google-java-format-1.7-all-deps.jar --replace ${file}"
+            }
+        ]
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.semanticHighlighting.enabled": true,
+    "explorer.confirmDelete": false
+}

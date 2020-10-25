@@ -34,3 +34,18 @@ function venv_rm() {
     echo "Virtualenv '$1' does not exist!"
     return 1
 }
+
+function git_tag_diff() {
+    old_tag=$1
+    new_tag=$2
+
+    git log --oneline ${old_tag}..${new_tag} | sed 's/(.*)//'
+}
+
+function docker_rmi_all() {
+    docker images | awk '{print $3}' | grep -v IMAGE | xargs docker rmi
+}
+
+function docker_kill_all() {
+    docker ps -a | awk '{print $1}' | grep -v CONTAINER | xargs docker rm -f
+}
