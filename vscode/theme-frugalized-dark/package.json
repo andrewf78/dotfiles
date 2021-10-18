@@ -1,0 +1,25 @@
+{
+    "name": "theme-frugalized-dark",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "1.0.0",
+    "publisher": "andrewf78",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "id": "Frugalized Dark",
+                "label": "%themeLabel%",
+                "uiTheme": "vs-dark",
+                "path": "./frugalized-dark-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrewf78/dotfiles.git"
+    }
+}
