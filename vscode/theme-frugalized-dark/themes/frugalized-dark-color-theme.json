@@ -1,5 +1,5 @@
 {
-    "name": "Solarized (dark)",
+    "name": "Frugalized Dark",
     "tokenColors": [
         {
             "settings": {
@@ -20,14 +20,15 @@
             "scope": "comment",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#657B83"
+                "foreground": "#2AA198"
             }
         },
         {
             "name": "String",
             "scope": "string",
             "settings": {
-                "foreground": "#2AA198"
+                //"foreground": "#2AA198"
+                "foreground": "#00b100"
             }
         },
         {
@@ -41,24 +42,46 @@
             "name": "Number",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#D33682"
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Constant",
+            "scope": [
+                "constant.other",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#fc3d3d"
             }
         },
         {
             "name": "Variable",
             "scope": [
                 "variable.language",
-                "variable.other"
             ],
             "settings": {
-                "foreground": "#268BD2"
+                "foreground": "#5b50fd"
+
+            }
+        },
+        {
+            "name": "Variable",
+            "scope": [
+                "variable",
+            ],
+            "settings": {
+                //"foreground": "#81a8d4"
+                "foreground": "#0088ff"
             }
         },
         {
             "name": "Keyword",
             "scope": "keyword",
             "settings": {
-                "foreground": "#859900"
+                "fontStyle": "bold",
+                //"foreground": "#0088FF"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -66,7 +89,17 @@
             "scope": "storage",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#93A1A1"
+                "foreground": "#0088FF",
+            }
+        },
+        {
+            "name": "Namespace",
+            "scope": [
+                "entity.name.namespace"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#AAAAAA"
             }
         },
         {
@@ -74,19 +107,20 @@
             "scope": [
                 "entity.name.class",
                 "entity.name.type",
-                "entity.name.namespace",
+                //"entity.name.namespace",
                 "entity.name.scope-resolution"
             ],
             "settings": {
-                "fontStyle": "",
-                "foreground": "#CB4B16"
+                "fontStyle": "bold",
+                "foreground": "#00ff00"
+                //"foreground": "#ffffff"
             }
         },
         {
             "name": "Function name",
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#268BD2"
+                "foreground": "#00ff00"
             }
         },
         {
@@ -130,10 +164,9 @@
             "name": "User-defined constant",
             "scope": [
                 "constant.character",
-                "constant.other"
             ],
             "settings": {
-                "foreground": "#CB4B16"
+                "foreground": "#00ff00"
             }
         },
         {
@@ -146,7 +179,18 @@
         {
             "name": "Function argument",
             "scope": "variable.parameter",
-            "settings": {}
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#AAAAAA"
+            }
+        },
+        {
+            "name": "Constant",
+            "scope": "variable.other.constant",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#fc5454"
+            }
         },
         {
             "name": "Tag name",
@@ -180,7 +224,7 @@
             "name": "Continuation",
             "scope": "punctuation.separator.continuation",
             "settings": {
-                "foreground": "#D30102"
+                "foreground": "#859900"
             }
         },
         {
@@ -341,7 +385,7 @@
         "list.highlightForeground": "#1ebcc5",
         "editor.background": "#002B36",
         "editorWidget.background": "#00212B",
-        "editorCursor.foreground": "#D30102",
+        "editorCursor.foreground": "#949494",
         "editorWhitespace.foreground": "#93A1A180",
         "editor.lineHighlightBackground": "#073642",
         "editorLineNumber.activeForeground": "#949494",
@@ -371,7 +415,7 @@
         "tab.border": "#003847",
         "tab.lastPinnedBorder": "#2AA19844",
         "activityBar.background": "#003847",
-        "panel.border": "#2b2b4a",
+        "panel.border": "#818181",
         "sideBar.background": "#00212B",
         "sideBarTitle.foreground": "#93A1A1",
         "statusBar.foreground": "#93A1A1",
@@ -387,6 +431,7 @@
         "debugExceptionWidget.border": "#AB395B",
         "pickerGroup.foreground": "#2AA19899",
         "pickerGroup.border": "#2AA19899",
+        "terminal.border": "#818181",
         "terminal.ansiBlack": "#073642",
         "terminal.ansiRed": "#dc322f",
         "terminal.ansiGreen": "#859900",

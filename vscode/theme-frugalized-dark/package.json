@@ -14,7 +14,7 @@
                 "id": "Frugalized Dark",
                 "label": "%themeLabel%",
                 "uiTheme": "vs-dark",
-                "path": "./frugalized-dark-color-theme.json"
+                "path": "./themes/frugalized-dark-color-theme.json"
             }
         ]
     },
