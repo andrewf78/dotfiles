@@ -1,23 +1,32 @@
 {
-    "emeraldwalk.runonsave": {
-
+    /*"emeraldwalk.runonsave": {
         "commands": [
             {
               "match": "\\.java$",
               "cmd": "java -jar ${HOME}/static/google-java-format-1.7-all-deps.jar --replace ${file}"
             }
         ]
-    },
+    },*/
     "diffEditor.ignoreTrimWhitespace": false,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.hover.above": false,
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
+    "terminal.integrated.fontSize": 14,
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "python.terminal.activateEnvironment": false,
+    "terminal.integrated.inheritEnv": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Frugalized Dark",
+    "python.analysis.extraPaths": [],
+    "workbench.editor.untitled.hint": "hidden"
 }
