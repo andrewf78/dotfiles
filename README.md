@@ -11,6 +11,5 @@ Miscellaneous development environment dot and config files.
 7. Install python3.x (see http://python.org)
 8. Install neovim (see http://neovim.io)
 9. Install coreutils: ```brew install coreutils```
-10. Move bash/.bash_* to ~/.
-11. Run vim/install.sh
-12. Chew bubblegum, kick ass, take names.
+10. Run vim/install.sh
+11. Chew bubblegum, kick ass, take names.
