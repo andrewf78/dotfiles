@@ -5,9 +5,19 @@ export VISUAL="$EDITOR"
 
 # Update the PATH to default to coreutils
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="$PATH:/usr/local/go/bin"
+
+# pyenv things
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/shims:$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # Other setup stuff
 export WKSPC="$HOME/workspace/"
 export VENV_ROOT="$WKSPC/virtualenvs"
 export GOPATH="$WKSPC/go"
 export GOBIN="$WKSPC/go/bin"
+
+# Muon stuff
+export MUON_ROOT="$WKSPC/muon"
+export PATH="$PATH:$MUON_ROOT/muon-cli/commands"

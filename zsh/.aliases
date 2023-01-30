@@ -4,7 +4,7 @@ alias bb="b;b"
 alias bbb="bb;b"
 alias bbbb="bbb;b"
 
-alias ls="ls -G"
+alias ls="ls --color"
 alias ll="ls -alF"
 alias la="ls -A"
 alias l="ls -CF"
@@ -13,6 +13,12 @@ alias vim='nvim'
 alias vi='vim'
 alias v='vi'
 
+alias python="python3"
 alias ppjson="python -m json.tool"
 
 alias wk="cd $WKSPC"
+
+alias open="xdg-open"
+
+alias muon_vpn="sudo openvpn --config ~/.vpn_configs/lab-test.ovpn"
+alias whats_on_port="sudo lsof -i -P -n | grep"
