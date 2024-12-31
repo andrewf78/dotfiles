@@ -1,12 +1,4 @@
 {
-    /*"emeraldwalk.runonsave": {
-        "commands": [
-            {
-              "match": "\\.java$",
-              "cmd": "java -jar ${HOME}/static/google-java-format-1.7-all-deps.jar --replace ${file}"
-            }
-        ]
-    },*/
     "diffEditor.ignoreTrimWhitespace": false,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
@@ -18,9 +10,16 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
+    "files.readonlyInclude": {
+        "/.cargo/registry/src//*.rs": true,
+        "/lib/rustlib/src/rust/library//*.rs": true
+    },
+    "files.associations": {
+        "*.hcl": "terraform"
+    },
     "explorer.confirmDelete": false,
-    "terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 11,
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
     "python.terminal.activateEnvironment": false,
     "terminal.integrated.inheritEnv": false,
@@ -28,5 +27,12 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.colorTheme": "Frugalized Dark",
     "python.analysis.extraPaths": [],
-    "workbench.editor.untitled.hint": "hidden"
+    "workbench.editor.untitled.hint": "hidden",
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "custom",
+    "window.commandCenter": false,
+    "rust-analyzer.checkOnSave": true,
+    "editor.fontSize": 11,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.enableMultiLinePasteWarning": false
 }

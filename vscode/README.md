@@ -1,16 +1,17 @@
 # VSCode dotfiles
 
-### `settings.json`
-`settings.json` contains configs for the interactions within vscode, *not* the appearance.
+### `settings.json` and `keybindings.json`
+ - `settings.json` contains configs for the interactions within vscode, *not* the appearance.
+ - `keybindings.json` contains custom keyboard shortcuts.
 
-To install `settings.json`:
+To install these configurations:
 
 ```
 # OSX
-$ cp settings.json ${HOME}/Library/Application\ Support/Code/User/settings.json
+$ cp *.json ${HOME}/Library/Application\ Support/Code/User/.
 
 # Ubuntu
-$ cp settings.json  $HOME/.config/Code/User/settings.json
+$ cp *.json  $HOME/.config/Code/User/.
 ```
 
 ### Color Theme
